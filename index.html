@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://db.onlinewebfonts.com/c/288be5cb6f0a89e2a430d70610f6405b?family=DINCondensedC" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<style>
+   body{
+    font-family: 'DINCondensedC';
+    font-size: x-large;
+   }
+  
+</style>
+<body>
+    
+    <div style="z-index: 9999;" class="navbar-fixed">
+        <nav style="background-image: linear-gradient(to right, #b39ddb,white);" class="navbar hide-on-med-and-down">
+            <div class="container">
+                <ul class="right">
+                    <li><a style="color: black;" href="">Home</a></li>
+                    <li><a style="color: black;" href="">About-Me</a></li>
+                    <li><a style="color: black;" href="">Projects</a></li>
+                    <li><a style="color: black;" href="">Contact-Me</a></li>
+                    <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav style="background-image: linear-gradient(to right, #b39ddb,white);" class="hide-on-large-only">
+            <ul id="slide-out" class="sidenav">
+                    <li><a style="color: black;" href="">Home</a></li>
+                    <li><a style="color: black;" href="">About-Me</a></li>
+                    <li><a style="color: black;" href="">Projects</a></li>
+                    <li><a style="color: black;" href="">Contact-Me</a></li>
+                    <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="">Get Started</a></li>
+            </ul>
+    
+            <a class="sidenav-trigger" href="" data-target="slide-out"><i class="material-icons">dehaze</i></a>
+        </nav>
+    </div>
+    
+    
+<section style="background-image: url(/image/a04bf5e319ed1fba0776d832a9289240.jpg); background-repeat: no-repeat; background-size: cover;">
+    <div class="container row">
+        <div class="col s12 l5"><br><br>
+            <p data-aos="zoom-in-right" class="btn deep-purple lighten-3">Welcome I'M</p>
+            <h3 class="animate__animated animate__rubberBand">SAMUEL RAPHEL</h3>
+            <span style="font-weight: 500;" id="element"></span><br><br><br><br><br><br>
+            <p style="font-weight: 300;">As a front-end web developer, I fuse creativity with code to build sleek, interactive digital experiences. From pixel-perfect design to dynamic functionality, I bring ideas to life on the web with speed and style. Let’s turn visions into vibrant, immersive realities that captivate and connect.</p>
+           
+        </div>
+        <div class="col l2">
+
+        </div>
+
+        <div class="col s12 l5">
+            <img style="border-radius: 10%;"  src="/image/WhatsApp_Image_2024-10-04_at_14.53.29_354dd62d-removebg.png" alt="" width="90%" >
+
+        </div>
+    </div>
+</section>
+
+<div class="container row">
+        <div class="col s12 l3"><br>
+            <div class="book">
+                <p>4</p>
+                <div class="cover">
+                    <p>My Projects</p>
+                </div>
+               </div>
+        </div>
+        <div class="col s12 l3"><br>
+            <div class="book">
+                <p>1 year</p>
+                <div class="cover">
+                    <p>Years Experience</p>
+                </div>
+               </div>
+        </div>
+        <div class="col s12 l3"><br>
+            <div class="book">
+                <p>5+</p>
+                <div class="cover">
+                    <p>Frameworks</p>
+                </div>
+               </div>
+        </div>
+
+         <div class="col s12 l3"><br>
+            <div class="book">
+                <p>4+</p>
+                <div class="cover">
+                    <p>Feautred Projects</p>
+                </div>
+               </div>
+        </div>
+
+        
+</div>
+
+
+<div style="background-color: #b39ddb;">
+    <div class="container">
+        <div class="row">
+            <div class="col l5">
+                <h2   data-aos="fade-down-right" >My Recent Projects</h2>
+                <p style="font-weight: 300;">I've worked on dynamic and responsive webpages, focusing on creating intuitive user interfaces with modern frameworks. My experience includes optimizing performance, ensuring cross-browser compatibility, and enhancing accessibility.</p>
+            </div>
+
+            <div class="col l7">
+                <p  data-aos="fade-up-left" style="color: black;" class="btn white right">All Works</p>
+            </div>
+
+            
+                
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/materialize/js/jquery.js"></script>
+    <script src="/materialize/js/materialize.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+    </script>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Welcome to my portfolio.','where I craft high-performance, immersive experiences as a front-end web developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
