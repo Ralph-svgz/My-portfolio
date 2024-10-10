@@ -1,130 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/materialize/css/materialize.css">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://db.onlinewebfonts.com/c/288be5cb6f0a89e2a430d70610f6405b?family=DINCondensedC" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+
 </head>
 <style>
-   body{
-    font-family: 'DINCondensedC';
-    font-size: x-large;
-   }
-  
+    body {
+        font-family: 'DINCondensedC';
+        font-size: x-large;
+    }
 </style>
+
 <body>
+
     
-    <div style="z-index: 9999;" class="navbar-fixed">
-        <nav style="background-image: linear-gradient(to right, #b39ddb,white);" class="navbar hide-on-med-and-down">
+    <div id="Home" style="z-index: 9999;" class="navbar-fixed section scrollspy">
+        <nav style="background-image: linear-gradient(to right, #b39ddb,white); top: 0%;" class="navbar hide-on-med-and-down">
             <div class="container">
                 <ul class="right">
-                    <li><a style="color: black;" href="">Home</a></li>
+                    <li><a style="color: black;" href="#Home">Home</a></li>
+                    <li><a style="color: black;" href="About Me.html">About-Me</a></li>
+                    <li><a style="color: black;" href="">Projects</a></li>
+                    <li><a style="color: black;" href="">Contact-Me</a></li>
+                    <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="">Get
+                        Started</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav style="background-image: linear-gradient(to right, rgb(179, 157, 219),white); top: 0%;" class="hide-on-large-only">
+                <ul id="slide-out" class="sidenav">
+                    <li><a style="color: black;" href="#Home">Home</a></li>
                     <li><a style="color: black;" href="">About-Me</a></li>
                     <li><a style="color: black;" href="">Projects</a></li>
                     <li><a style="color: black;" href="">Contact-Me</a></li>
-                    <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="">Get Started</a></li>
-                </ul>
-            </div>
-        </nav>
-        <nav style="background-image: linear-gradient(to right, #b39ddb,white);" class="hide-on-large-only">
-            <ul id="slide-out" class="sidenav">
-                    <li><a style="color: black;" href="">Home</a></li>
-                    <li><a style="color: black;" href="">About-Me</a></li>
-                    <li><a style="color: black;" href="">Projects</a></li>
-                    <li><a style="color: black;" href="">Contact-Me</a></li>
-                    <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="">Get Started</a></li>
-            </ul>
-    
-            <a class="sidenav-trigger" href="" data-target="slide-out"><i class="material-icons">dehaze</i></a>
-        </nav>
-    </div>
-    
-    
-<section style="background-image: url(/image/a04bf5e319ed1fba0776d832a9289240.jpg); background-repeat: no-repeat; background-size: cover;">
-    <div class="container row">
-        <div class="col s12 l5"><br><br>
-            <p data-aos="zoom-in-right" class="btn deep-purple lighten-3">Welcome I'M</p>
-            <h3 class="animate__animated animate__rubberBand">SAMUEL RAPHEL</h3>
-            <span style="font-weight: 500;" id="element"></span><br><br><br><br><br><br>
-            <p style="font-weight: 300;">As a front-end web developer, I fuse creativity with code to build sleek, interactive digital experiences. From pixel-perfect design to dynamic functionality, I bring ideas to life on the web with speed and style. Let’s turn visions into vibrant, immersive realities that captivate and connect.</p>
-           
-        </div>
-        <div class="col l2">
-
-        </div>
-
-        <div class="col s12 l5">
-            <img style="border-radius: 10%;"  src="/image/WhatsApp_Image_2024-10-04_at_14.53.29_354dd62d-removebg.png" alt="" width="90%" >
-
-        </div>
-    </div>
-</section>
-
-<div class="container row">
-        <div class="col s12 l3"><br>
-            <div class="book">
-                <p>4</p>
-                <div class="cover">
-                    <p>My Projects</p>
-                </div>
-               </div>
-        </div>
-        <div class="col s12 l3"><br>
-            <div class="book">
-                <p>1 year</p>
-                <div class="cover">
-                    <p>Years Experience</p>
-                </div>
-               </div>
-        </div>
-        <div class="col s12 l3"><br>
-            <div class="book">
-                <p>5+</p>
-                <div class="cover">
-                    <p>Frameworks</p>
-                </div>
-               </div>
-        </div>
-
-         <div class="col s12 l3"><br>
-            <div class="book">
-                <p>4+</p>
-                <div class="cover">
-                    <p>Feautred Projects</p>
-                </div>
-               </div>
-        </div>
-
-        
-</div>
-
-
-<div style="background-color: #b39ddb;">
-    <div class="container">
-        <div class="row">
-            <div class="col l5">
-                <h2   data-aos="fade-down-right" >My Recent Projects</h2>
-                <p style="font-weight: 300;">I've worked on dynamic and responsive webpages, focusing on creating intuitive user interfaces with modern frameworks. My experience includes optimizing performance, ensuring cross-browser compatibility, and enhancing accessibility.</p>
-            </div>
-
-            <div class="col l7">
-                <p  data-aos="fade-up-left" style="color: black;" class="btn white right">All Works</p>
-            </div>
-
-            
-                
+                    <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="">Get
+                        Started</a></li>
+                    </ul>
+                    
+                    <a class="sidenav-trigger" href="" data-target="slide-out"><i class="material-icons">dehaze</i></a>
+                </nav>
             </div>
             
+        <a href="#Home" style="position: fixed; top: 80%; left: 85%;" class="btn-floating btn-large waves-effect waves-light deep-purple lighten-3"><img src="image/OIP-removebg-preview.png" alt="" width="60%" height="70%" style="margin-top: 10%;"></a>
+
+
+
+
+    <section style="background-image: url(image/b.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container row">
+            <div class="col s12 l5"><br><br>
+                <p style="font-size: 25px;" data-aos="zoom-in-right" class="btn deep-purple lighten-3">Welcome I'M</p>
+                <h3 class="animate__animated animate__rubberBand">SAMUEL RAPHEL</h3>
+                <span style="font-weight: 500;" id="element"></span><br><br><br><br><br><br>
+                <p style="font-weight: 300;">As a front-end web developer, I fuse creativity with code to build sleek,
+                    interactive digital experiences. From pixel-perfect design to dynamic functionality, I bring ideas
+                    to life on the web with speed and style. Let’s turn visions into vibrant, immersive realities that
+                    captivate and connect.</p>
+
+            </div>
+            <div class="col l2">
+
+            </div>
+
+            <div class="col s12 l5">
+                <img style="border-radius: 10%;"
+                    src="image/WhatsApp_Image_2024-10-04_at_14.53.29_354dd62d-removebg.png" alt="" width="90%">
+
+            </div>
+        </div>
+    </section>
+
+    <div style="margin-top: 3%; " class=" row ">
+        <div class="col s12 l3">
+            <div class="container">
+                <div style="margin-top: 4%;" class="car center-align">
+                    <h4 style="color: black;">4 Projects</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l3">
+            <div class="container">
+                <div style="margin-top: 4%;" class="car">
+                    <h4 style="color: black;">1 Year Experience</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col s12  l3">
+            <div class="container">
+                <div style="margin-top: 4%;" class="car">
+                    <h4 style="color: black;">5+ Frameworks</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col s12 l3">
+            <div class="container">
+                <div style="margin-top: 4%;" class="car">
+                    <h4 style="color: black;">4+ Feautred Projects</h4>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div style="background-color: #b39ddb; margin-top: 4%;">
+        <div class="container">
+            <div class="row">
+                <div class="col l5">
+                    <h2 data-aos="fade-down-right">My Recent Projects</h2>
+                    <p style="font-weight: 300;">I've worked on dynamic and responsive webpages, focusing on creating
+                        intuitive user interfaces with modern frameworks. My experience includes optimizing performance,
+                        ensuring cross-browser compatibility, and enhancing accessibility.</p>
+                </div>
+
+                <div class="col l7">
+                    <p data-aos="fade-up-left" style="color: black;" class="btn-large white right">All Works</p>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div style="margin-top: 4%;" class="carousel">
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" src="image/c.png" alt="" />
+        </div>
+        <div class="carousel-cell">
+
+            <img class="carousel-cell-image" src="image/a.png" alt="" />
+
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" src="image/d.png" alt="" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" src="image/e.png" alt="" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" src="image/f.png" alt="" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" src="image/g.png" alt="" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" src="image/onbbonb.png" alt="" />
+        </div>
+    </div>
+
+
+    <div class="container center">
+        <a href="">
+            <h1 style="color: black; font-size: 35px;" class="btn-large white">View All</h1>
+        </a>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#b39ddb" fill-opacity="2"
+            d="M0,32L8.3,64C16.6,96,33,160,50,192C66.2,224,83,224,99,229.3C115.9,235,132,245,149,229.3C165.5,213,182,171,199,176C215.2,181,232,235,248,240C264.8,245,281,203,298,197.3C314.5,192,331,224,348,197.3C364.1,171,381,85,397,74.7C413.8,64,430,128,447,133.3C463.4,139,480,85,497,64C513.1,43,530,53,546,74.7C562.8,96,579,128,596,160C612.4,192,629,224,646,224C662.1,224,679,192,695,176C711.7,160,728,160,745,154.7C761.4,149,778,139,794,128C811,117,828,107,844,90.7C860.7,75,877,53,894,42.7C910.3,32,927,32,943,64C960,96,977,160,993,176C1009.7,192,1026,160,1043,154.7C1059.3,149,1076,171,1092,202.7C1109,235,1126,277,1142,272C1158.6,267,1175,213,1192,192C1208.3,171,1225,181,1241,197.3C1257.9,213,1274,235,1291,208C1307.6,181,1324,107,1341,96C1357.2,85,1374,139,1390,160C1406.9,181,1423,171,1432,165.3L1440,160L1440,0L1431.7,0C1423.4,0,1407,0,1390,0C1373.8,0,1357,0,1341,0C1324.1,0,1308,0,1291,0C1274.5,0,1258,0,1241,0C1224.8,0,1208,0,1192,0C1175.2,0,1159,0,1142,0C1125.5,0,1109,0,1092,0C1075.9,0,1059,0,1043,0C1026.2,0,1010,0,993,0C976.6,0,960,0,943,0C926.9,0,910,0,894,0C877.2,0,861,0,844,0C827.6,0,811,0,794,0C777.9,0,761,0,745,0C728.3,0,712,0,695,0C678.6,0,662,0,646,0C629,0,612,0,596,0C579.3,0,563,0,546,0C529.7,0,513,0,497,0C480,0,463,0,447,0C430.3,0,414,0,397,0C380.7,0,364,0,348,0C331,0,314,0,298,0C281.4,0,265,0,248,0C231.7,0,215,0,199,0C182.1,0,166,0,149,0C132.4,0,116,0,99,0C82.8,0,66,0,50,0C33.1,0,17,0,8,0L0,0Z">
+        </path>
+    </svg>
+
+
+
+    <footer class="page-footer white">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l6 s12">
+                    <h5 class="black-text"><span style="font-size: 20px;"
+                            class="btn-large black-text deep-purple lighten-3">Get In Touch With Me</span> <br><br> We
+                        build seamless and intuitive web solutions to help businesses thrive in the digital age. From
+                        modern designs to optimized performance, we bring your vision to life through clean code and
+                        responsive interfaces.</h5>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col l1">
+                    <a href="">
+                        <h3><i style="color: black;" class="fa-regular fa-envelope "></i></h3>
+                    </a>
+                </div>
+                <div class="col l1">
+                    <a href="">
+                        <h3><i style="color: black;" class="fa-brands fa-github "></i></h3>
+                    </a>
+                </div>
+
+                <div class="col l1">
+                    <a href="">
+                        <h3><i style="color: black;" class="fa-brands fa-x-twitter "></i></h3>
+                    </a>
+                </div>
+
+                <div class="col l1">
+                    <a href="">
+                        <h3><i style="color: black;" class="fa-brands fa-telegram"></i></h3>
+                    </a>
+                </div>
+
+                <div class="col l1">
+                    <a href="">
+                        <h3><i style="color: black;" class="fa-brands fa-whatsapp"></i></h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="footer-copyright deep-purple lighten-3">
+            <div class="container">
+                © 2024 || All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
     
-</div>
 
 
 
@@ -158,24 +275,55 @@
 
 
 
-    <script src="/materialize/js/jquery.js"></script>
-    <script src="/materialize/js/materialize.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/icon8@1.0.0/dist/index.min.js"></script>
+    <script src="materialize/js/jquery.js"></script>
+    <script src="materialize/js/materialize.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <script>
-        $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-    </script>
-     <script>
-        var typed = new Typed('#element', {
-          strings: ['Welcome to my portfolio.','where I craft high-performance, immersive experiences as a front-end web developer.'],
-          typeSpeed: 50,
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+             $('.scrollspy').scrollSpy();
         });
-      </script>
-      <script>
+    </script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcome to my portfolio.', 'where I craft high-performance, immersive experiences as a front-end web developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
         AOS.init();
-      </script>
+    </script>
+
+    <script>
+        var $carousel = $('.carousel').flickity({
+            imagesLoaded: true,
+            percentPosition: false,
+        });
+
+        var $imgs = $carousel.find('.carousel-cell img');
+        // get transform property
+        var docStyle = document.documentElement.style;
+        var transformProp = typeof docStyle.transform == 'string' ?
+            'transform' : 'WebkitTransform';
+        // get Flickity instance
+        var flkty = $carousel.data('flickity');
+
+        $carousel.on('scroll.flickity', function () {
+            flkty.slides.forEach(function (slide, i) {
+                var img = $imgs[i];
+                var x = (slide.target + flkty.x) * -1 / 3;
+                img.style[transformProp] = 'translateX(' + x + 'px)';
+            });
+        });
+
+    </script>
+
+
+
 </body>
+
 </html>
