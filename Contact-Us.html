@@ -2,145 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="materialize/css/materialize.css">
-    <link rel="stylesheet" href="style1.css">
-    <link href="https://db.onlinewebfonts.com/c/288be5cb6f0a89e2a430d70610f6405b?family=DINCondensedC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>About-Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link rel="stylesheet" href="style1.css">
+  <link href="https://db.onlinewebfonts.com/c/288be5cb6f0a89e2a430d70610f6405b?family=DINCondensedC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <title>About-Me</title>
 </head>
 
 <style>
-    body {
-        font-family: 'DINCondensedC';
-    }
+  body {
+    font-family: 'DINCondensedC';
+  }
 </style>
 
-<body style="background-image: url(image/7d14ad823cbe9b302be8b06f58303e86.jpg); background-repeat: no-repeat; background-size: cover;">
+<body
+  style="background-image: url(image/7d14ad823cbe9b302be8b06f58303e86.jpg); background-repeat: no-repeat; background-size: cover;">
 
 
-    <div style="z-index: 9999;"  class="navbar-fixed">
-        <nav class="navbar grey lighten-5 hide-on-med-and-down">
-            <div class="container row">
-                <div class="col l4">
-    
-                </div>
-    
-                <div class="col l4">
-                    <ul>
-                        <li><a style="font-size: 25px; color: black;" href="index.html">Home</a></li>
-                        <li><a style="font-size: 25px; color: black;" href="">About-Me</a></li>
-                        <li><a style="font-size: 25px; color: black;" href="">My Projects</a></li>
-    
-                    </ul>
-                </div>
-
-                <div class="col l4">
-                    <ul class="right">
-                        <li><a style="color: black; border-radius: 15px;" class="btn-large grey lighten-5"
-                                href="">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-    
-        </nav>
-
-
-        <nav class="hide-on-large-only grey lighten-5">
-            <ul id="slide-out" class="sidenav">
-                <li><a style="color: black;" href="index.html">Home</a></li>
-                <li><a style="color: black;" href="">About-Me</a></li>
-                <li><a style="color: black;" href="">Projects</a></li>
-                <li><a style="color: black; border-radius: 15px;" class="btn-large grey lighten-5"
-                    href="">Contact</a></li>
-                </ul>
-                
-                <a class="sidenav-trigger" href="" data-target="slide-out"><i style="color: black;" class="material-icons">dehaze</i></a>
-            </nav>
-
-
-        
-
-    </div>
-    
-
-    <section > 
-        <div class="container row">
-            <div class="col l5">
-                <h1 style="margin-top: 40%;">Let’s Chat. <br> Tell me about about your project</h1>
-                <p class="animate__animated animate__rubberBand" style="font-weight: 300; font-size: 20px;">Let’s create something together 🤘</p>
-              
-                <div class="row">
-                    <div class="col l2 left">
-                        <span><i style="font-size: 60px;" class="fa-regular fa-envelope"></i></span>
-                    </div>
-                    <div class="col l6">
-                        <span style="font-size: 20px;">Mail me at <br>Samuelmaji88@gmail.com</span>
-                    </div>
-                </div>
-              
-            </div>
-
-
-            <div style="margin-top: 6%; border: 1px solid gray; padding: 25px; border-radius: 10px; box-shadow: 1px 1px 1px 1px gray;" class="col s12 l6 right">
-                 
-                <div class="row">
-                    <form class="col s12">
-                        <label style="font-size: 21px;" for="full_name">Full Name</label>
-
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <input style="padding: 4px;" placeholder="" id="full_name" type="text" class="validate">
-                        </div>
-                        
-                      </div>
-                    
-                      <div class="row">
-                        <label style="font-size: 21px;" for="password">Password</label>
-                        <div class="input-field col s12">
-                          <input  style="padding: 4px;" id="password" type="password" class="validate">
-                          
-                        </div>
-                      </div>
-                      
-                      <div class="row">
-                        <label style="font-size: 21px;" for="email">Email</label>
-                        <div class="input-field col s12">
-                          <input style="padding: 4px;"  id="email" type="email" class="validate">
-                          
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col col l12">
-                            <h6 style="font-size: 25px;">Tell us more about your project</h6>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col s12">
-                            <label style="font-size: 21px;" for="textarea1">Textarea</label>
-                          <div class="row">
-                           
-                            <div class="input-field col s12">
-                              <textarea  style="padding: 4px;" id="textarea1" class="materialize-textarea"></textarea>
-                             
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <a style="color: black;font-size: 21px;" class="btn-large grey lighten-5">Send Message</a>
-                    </form>
-                  </div>
-                        
-            </div>
+  <div style="z-index: 9999;" class="navbar-fixed">
+    <nav class="navbar grey lighten-5 hide-on-med-and-down">
+      <div class="container row">
+        <div class="col l4">
 
         </div>
 
+        <div class="col l4">
+          <ul>
+            <li><a style="font-size: 25px; color: black;" href="index.html">Home</a></li>
+            <li><a style="font-size: 25px; color: black;" href="index.html">About-Me</a></li>
+            <li><a style="font-size: 25px; color: black;" href="Sites.html">My Projects</a></li>
 
-    </section>
+          </ul>
+        </div>
+
+        <div class="col l4">
+          <ul class="right">
+            <li><a style="color: black; border-radius: 15px;" class="btn-large grey lighten-5" href="mailto:samuelmaji88@gmail.com?subject=Project Details&cc=&bcc=">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+
+    <nav class="hide-on-large-only grey lighten-5">
+      <ul id="slide-out" class="sidenav">
+        <li><a style="color: black;" href="index.html">Home</a></li>
+        <li><a style="color: black;" href="index.html">About-Me</a></li>
+        <li><a style="color: black;" href="">Projects</a></li>
+        <li><a style="color: black; border-radius: 15px;" class="btn-large grey lighten-5" href="mailto:samuelmaji88@gmail.com?subject=Project Details&cc=&bcc=">Contact</a></li>
+      </ul>
+
+      <a class="sidenav-trigger" href="" data-target="slide-out"><i style="color: black;"
+          class="material-icons">dehaze</i></a>
+    </nav>
+
+
+
+
+  </div>
+
+
+  <section>
+    <div class="container row">
+      <div class="col l5">
+        <h1 style="margin-top: 40%;">Let’s Chat. <br> Tell me about about your project</h1>
+        <p class="animate__animated animate__rubberBand" style="font-weight: 300; font-size: 20px;">Let’s create
+          something together 🤘</p>
+
+        <div class="row">
+          <div class="col l2 left">
+            <span><i style="font-size: 60px;" class="fa-regular fa-envelope"></i></span>
+          </div>
+          <div class="col l6">
+            <span style="font-size: 20px;">Mail me at <br>Samuelmaji88@gmail.com</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div
+        style="margin-top: 6%; border: 1px solid gray; padding: 25px; border-radius: 10px; box-shadow: 1px 1px 1px 1px gray;"
+        class="col s12 l6 right">
+
+        <div class="row">
+          <form class="col s12">
+            <label style="font-size: 21px;" for="full_name">Full Name</label>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <input style="padding: 4px;" placeholder="" id="full_name" type="text" class="validate">
+              </div>
+
+            </div>
+
+
+            <div class="row">
+              <label style="font-size: 21px;" for="email">Email</label>
+              <div class="input-field col s12">
+                <input style="padding: 4px;" id="email" type="email" class="validate">
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col l12">
+                <h6 style="font-size: 25px;">Tell us more about your project</h6>
+                <div class="col s12">
+                  <div class="input-field col l12 s12">
+                    <textarea style="padding: 4px;" id="textarea1" class="materialize-textarea"></textarea>
+              </div>
+            </div>
+            
+              </div>
+            </div>
+        </div>
+
+        <a style="color: black;font-size: 21px;" class="btn-large grey lighten-5">Send Message</a>
+        </form>
+      </div>
+
+    </div>
+
+    </div>
+
+
+  </section>
 
 
 
@@ -150,21 +141,20 @@
 
 
 
-    <script src="materialize/js/jquery.js"></script>
-    <script src="materialize/js/materialize.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        
-        $(document).ready(function () {
-            $('.sidenav').sidenav();
-             
-        });
-    </script>
+  <script src="materialize/js/jquery.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
 
-    <script>
-         $('#textarea1').val('');
-         M.textareaAutoResize($('#textarea1'));
-    </script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
+
+  <script>
+    $('#textarea1').val('');
+    M.textareaAutoResize($('#textarea1'));
+  </script>
 
 </body>
 
