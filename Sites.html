@@ -1,199 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="materialize/css/materialize.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/288be5cb6f0a89e2a430d70610f6405b?family=DINCondensedC">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="lightbox2-2.11.4/dist/css/lightbox.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="style.css">
-    <title>My Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/288be5cb6f0a89e2a430d70610f6405b?family=DINCondensedC">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="lightbox2-2.11.4/dist/css/lightbox.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>My Projects</title>
 </head>
 <style>
-    body {
-        font-family: 'DINCondensedC';
-        font-size: x-large;
-    }
+  body {
+    font-family: 'DINCondensedC';
+    font-size: x-large;
+  }
 </style>
+
 <body>
-    
-    
+
+
   <div style="z-index: 9999;" class="navbar-fixed">
-    <nav style="background-image: linear-gradient(to right, #b39ddb,white); top: 0%;" class="navbar hide-on-med-and-down">
-        <div class="container">
-            <ul class="right">
-                <li><a style="color: black;font-size: 22px;" href="index.html">Home</a></li>
-                <li><a style="color: black; font-size: 22px;" href="index.html">About-Me</a></li>
-                <li><a style="color: black;font-size: 22px;" href="Sites.html">Projects</a></li>
-                <li><a style="color: black;font-size: 22px;" href="Contact-Us.html">Contact-Me</a></li>
-                <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="Contact-Us.html">Get
-                    Started</a></li>
-                </ul>
-            </div>
-        </nav>
-        <nav style="background-image: linear-gradient(to right, rgb(179, 157, 219),white); top: 0%;" class="hide-on-large-only">
-            <ul id="slide-out" class="sidenav">
-                <li><a style="color: black;" href="index.html">Home</a></li>
-                <li><a style="color: black;" href="index.html">About-Me</a></li>
-                <li><a style="color: black;" href="Sites.html">Projects</a></li>
-                <li><a style="color: black;" href="Contact-Us.html">Contact-Me</a></li>
-                <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="Contact-Us.html">Get
-                    Started</a></li>
-                </ul>
-                <a class="sidenav-trigger" href="" data-target="slide-out" ><i class="material-icons">dehaze</i></a>
-            </nav>
-            
+    <nav style="background-image: linear-gradient(to right, #b39ddb,white); top: 0%;"
+      class="navbar hide-on-med-and-down">
+      <div class="container">
+        <ul>
+          <li>
+              <img src="image/Mr_Sam_logo-removebg-preview.png" alt="" width="24%" height="100%">
+          </li>
+      </ul>
+        <ul class="right">
+          <li><a style="color: black;font-size: 22px;" href="index.html">Home</a></li>
+          <li><a style="color: black; font-size: 22px;" href="index.html">About-Me</a></li>
+          <li><a style="color: black;font-size: 22px;" href="Sites.html">Projects</a></li>
+          <li><a style="color: black;font-size: 22px;" href="Contact-Us.html">Contact-Me</a></li>
+          <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="Contact-Us.html">Get
+              Started</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav style="background-image: linear-gradient(to right, rgb(179, 157, 219),white); top: 0%;"
+      class="hide-on-large-only">
+      <ul id="slide-out" class="sidenav">
+        <li><a style="color: black;" href="index.html">Home</a></li>
+        <li><a style="color: black;" href="index.html">About-Me</a></li>
+        <li><a style="color: black;" href="Sites.html">Projects</a></li>
+        <li><a style="color: black;" href="Contact-Us.html">Contact-Me</a></li>
+        <li><a style="color: black; border-radius: 15px;" class="btn deep-purple lighten-3" href="Contact-Us.html">Get
+            Started</a></li>
+      </ul>
+      <a class="sidenav-trigger" href="" data-target="slide-out"><i class="material-icons">dehaze</i></a>
+      
+      <ul>
+        <li>
+            <img style="float: right;" src="image/Mr_Sam_logo-removebg-preview.png" alt="" width="21%" height="100%">
+        </li>
+    </ul>
+    </nav>
+
+  </div>
+
+
+
+  <div style="margin-top: 3%;" class="container">
+    <div class="row">
+      <div class="col l12">
+        <h5 class="animate__animated animate__backInDown">Welcome 👋🙋‍♂️ to my projects! Here’s a showcase of my work
+          in front-end design and development, highlighting my skills in creating responsive, user-friendly interfaces.
+          Explore how I bring ideas to life through code and creativity!🖥️</h5>
+      </div>
+    </div>
+
+    <div style="margin-top: 9%;" class="row">
+      <div class="col l4 s11 m12">
+        <div data-aos="fade-right" data-aos-duration="1000" class="card">
+          <div class="card-image">
+            <a href="image/c.png" data-lightbox="image-4 "><img class="" src="image/c.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 3%;">Tesla Demo Site 🚗</h5>
+            <p>Explore the future of driving with our Tesla demo! Discover electric models, features, and technology in
+              a sleek, interactive experience.</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
         </div>
-        
-
-            
-            <div style="margin-top: 3%;" class="container">
-                <div class="row">
-                    <div class="col l12">
-                        <h5 class="animate__animated animate__backInDown">Welcome to my projects! Here’s a showcase of my work in front-end design and development, highlighting my skills in creating responsive, user-friendly interfaces. Explore how I bring ideas to life through code and creativity!</h5>
-                    </div>
-                </div>
-               
-                <div style="margin-top: 9%;" class="row">
-                    <div class="col l4 s11 m12">
-                      <div data-aos="fade-right" data-aos-duration="1000" class="card">
-                        <div class="card-image">
-                          <a href="image/c.png" data-lightbox="image-4 " ><img class="" src="image/c.png" alt=""></a>
-                        </div>
-                        <div class="card-content">
-                          <h5 style="margin-top: 3%;">Tesla Demo Site</h5>
-                          <p>Explore the future of driving with our Tesla demo! Discover electric models, features, and technology in a sleek, interactive experience.</p>
-                        </div>
-                        <div class="card-action">
-                          <a style="color: black;" href="#">Click-Me</a>
-                        </div>
-                      </div>
-                    </div>
+      </div>
 
 
 
 
-                    <div class="col l4 s11 m12">
-                        <div data-aos="zoom-out-right"  class="card">
-                          <div class="card-image">
-                            <a href="image/a.png" data-lightbox="image-4" ><img class="" src="image/a.png" alt=""></a>
-                          </div>
-                          <div class="card-content">
-                            <h5 style="margin-top: 3%;">Abuja Culinery School</h5>
-                            <p>Unleash your inner chef at our cookery school! Learn hands-on techniques, master new recipes, and elevate your cooking skills.</p>
-                          </div>
-                          <div class="card-action">
-                            <a style="color: black;" href="#">Click-Me</a>
-                          </div>
-                        </div>
-                      </div>
+      <div class="col l4 s11 m12">
+        <div data-aos="zoom-out-right" class="card">
+          <div class="card-image">
+            <a href="image/a.png" data-lightbox="image-4"><img class="" src="image/a.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 3%;">Abuja Culinery School 👩‍🍳</h5>
+            <p>Unleash your inner chef at our cookery school! Learn hands-on techniques, master new recipes, and elevate
+              your cooking skills.</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
+        </div>
+      </div>
 
-                      <div class="col l4 s11 m12">
-                        <div data-aos="fade-left" data-aos-duration="1000" class="card">
-                          <div class="card-image">
-                            <a href="image/e.png" data-lightbox="image-4" ><img class="" src="image/e.png" alt=""></a>
-                          </div>
-                          <div class="card-content">
-                            <h5 style="margin-top: 3%;">Gateway Therapy.inc</h5>
-                            <p>Gateway Therapy—your path to healing and growth. Discover compassionate, personalized support for mental wellness and a brighter future.</p>
-                          </div>
-                          <div class="card-action">
-                            <a style="color: black;" href="#">Click-Me</a>
-                          </div>
-                        </div>
-                      </div>
+      <div class="col l4 s11 m12">
+        <div data-aos="fade-left" data-aos-duration="1000" class="card">
+          <div class="card-image">
+            <a href="image/e.png" data-lightbox="image-4"><img class="" src="image/e.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 3%;">Gateway Therapy.inc 🧘</h5>
+            <p>Gateway Therapy—your path to healing and growth. Discover compassionate, personalized support for mental
+              wellness and a brighter future.</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
+        </div>
+      </div>
 
-                </div>
+    </div>
 
-                      <div class="row">
-                        
-                        <div class="col l4 s11 m12">
-                          <div data-aos="fade-left" data-aos-duration="1000" class="card">
-                            <div class="card-image">
-                              <a href="image/onbbonb.png" data-lightbox="image-4" ><img class="" src="image/onbbonb.png" alt=""></a>
-                            </div>
-                            <div class="card-content">
-                              <h5 style="margin-top: 9%;">Disney Burger</h5>
-                              <p>Welcome to Disney Burger! Enjoy a world of flavor and fun with our magical burgers crafted to delight the whole family.</p>
-                            </div>
-                            <div class="card-action">
-                              <a style="color: black;" href="#">Click-Me</a>
-                            </div>
-                          </div>
-                        </div>
+    <div class="row">
 
-  
-                        <div class="col l4 s11 m12">
-                          <div data-aos="zoom-out-left" data-aos-duration="1000" class="card">
-                            <div class="card-image">
-                              <a href="image/f.png" data-lightbox="image-4" ><img class="" src="image/f.png" alt=""></a>
-                            </div>
-                            <div class="card-content">
-                              <h5 style="margin-top: 3%;">Demo-Spotify</h5>
-                              <p>Discover music like never before with our Spotify demo! Explore playlists, albums, and artists in an interactive experience built for music lovers.</p>
-                            </div>
-                            <div class="card-action">
-                              <a style="color: black;" href="#">Click-Me</a>
-                            </div>
-                          </div>
-                        </div>
+      <div class="col l4 s11 m12">
+        <div data-aos="fade-right" data-aos-duration="1000" class="card">
+          <div class="card-image">
+            <a href="image/onbbonb.png" data-lightbox="image-4"><img class="" src="image/onbbonb.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 9%;">Disney Burger 🍔</h5>
+            <p>Welcome to Disney Burger! Enjoy a world of flavor and fun with our magical burgers crafted to delight the
+              whole family.</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
+        </div>
+      </div>
 
 
-
-                        <div class="col l4 s11 m12">
-                          <div data-aos="fade-left" data-aos-duration="1000" class="card">
-                            <div class="card-image">
-                              <a href="image/g.png" data-lightbox="image-4" ><img class="" src="image/g.png" alt=""></a>
-                            </div>
-                            <div class="card-content">
-                              <h5 style="margin-top: 3%;">Corexa Dynamics</h5>
-                              <p>Welcome to Corexa Dynamics—empowering businesses with innovative solutions and transformative technology. Discover how we drive growth and efficiency.</p>
-                            </div>
-                            <div class="card-action">
-                              <a style="color: black;" href="#">Click-Me</a>
-                            </div>
-                          </div>
-                        </div>
-  
-  
-                    </div>
-                    <div class="row">
-                      <div class="col l4 s11 m12">
-                        <div data-aos="fade-right" data-aos-duration="1000" class="card">
-                          <div class="card-image">
-                            <a href="image/d.png" data-lightbox="image-4" ><img class="" src="image/d.png" alt=""></a>
-                          </div>
-                          <div class="card-content">
-                            <h5 style="margin-top: 3%;">VeloCore Innovations.inc</h5>
-                            <p>Welcome to Velocore Innovations—where cutting-edge technology meets creative solutions. Discover our commitment to driving innovation forward</p>
-                          </div>
-                          <div class="card-action">
-                            <a style="color: black;" href="#">Click-Me</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-  
-                    
-
-                      
-
-                  
-                   
-                  
-                            
-                
-            
-        
-                            
-            </div>
+      <div class="col l4 s11 m12">
+        <div data-aos="zoom-out-left" data-aos-duration="1000" class="card">
+          <div class="card-image">
+            <a href="image/f.png" data-lightbox="image-4"><img class="" src="image/f.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 3%;">Demo-Spotify 🎵</h5>
+            <p>Discover music like never before with our Spotify demo! Explore playlists, albums, and artists in an
+              interactive experience built for music lovers.</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
+        </div>
+      </div>
 
 
 
+      <div class="col l4 s11 m12">
+        <div data-aos="fade-left" data-aos-duration="1000" class="card">
+          <div class="card-image">
+            <a href="image/g.png" data-lightbox="image-4"><img class="" src="image/g.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 3%;">Corexa Dynamics 🏢</h5>
+            <p>Welcome to Corexa Dynamics—empowering businesses with innovative solutions and transformative technology.
+              Discover how we drive growth and efficiency.</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col l4 s11 m12">
+        <div data-aos="fade-right" data-aos-duration="1000" class="card">
+          <div class="card-image">
+            <a href="image/d.png" data-lightbox="image-4"><img class="" src="image/d.png" alt=""></a>
+          </div>
+          <div class="card-content">
+            <h5 style="margin-top: 3%;">VeloCore Innovations.inc 🖥️</h5>
+            <p>Welcome to Velocore Innovations—where cutting-edge technology meets creative solutions. Discover our
+              commitment to driving innovation forward</p>
+          </div>
+          <div class="card-action">
+            <a style="color: black;" href="#">Click-Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Frameworks <🖥️>
+    </h2>
+  </div>
+  <div style="margin-top: 3%;" class="container">
+    <div class="row">
+      <div class="col l4 m6 s12">
+        <div class="cub">
+          <div class="cub-image-container">
+            <img src="image/OIP.jpg" alt="" width="20%">
+          </div>
+          <p class="cub-title">Materialize.Css</p>
+          <p class="cub-des">
+            Build a responsive webpage with Materialize CSS: navbar, 3 feature cards, and footer with social links
+          </p>
+        </div>
+
+
+      </div>
+
+
+      <div class="col l4 m6 s12">
+        <div class="cub">
+          <div class="cub-image-container">
+            <img src="image/png-transparent-bootstrap-plain-wordmark-logo-icon.png" alt="" width="20%">
+          </div>
+          <p class="cub-title">Bootstrap</p>
+          <p class="cub-des">
+            Build a responsive webpage with Bootstrap: navbar, 3 feature cards, and footer with social links.
+          </p>
+        </div>
+
+
+      </div>
+
+
+      <div class="col l4 m6 s12">
+        <div class="cub">
+          <div class="cub-image-container">
+            <img src="image/aaa.jpg" alt="" width="60%">
+          </div>
+          <p class="cub-title">Animate.Css</p>
+          <p class="cub-des">
+            Add animations to headings, buttons, and images with Animate.css.
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <div class="row">
+
+      <div class="col l4 m6 s12">
+        <div class="cub">
+          <div class="cub-image-container">
+            <img src="image/R-removebg-preview.png" alt="" width="40%">
+          </div>
+          <p class="cub-title">Ui-Verse</p>
+          <p class="cub-des">
+            Design an interactive webpage using UIverse components for buttons, modals, and loaders.
+          </p>
+        </div>
+      </div>
+
+      <div class="col l4 m6 s12">
+        <div class="cub">
+          <div class="cub-image-container">
+            <img src="image/cc-removebg-preview.png" alt="" width="60%">
+          </div>
+          <p class="cub-title">Light-Box</p>
+          <p class="cub-des">
+            Create an image gallery with Lightbox: click thumbnails to view images in a pop-up.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col l4 m6 s12">
+        <div class="cub">
+          <div class="cub-image-container">
+            <img src="image/fgfgf.jpg" alt="" width="60%">
+          </div>
+          <p class="cub-title">
+            Flickity Slider
+          </p>
+          <p class="cub-des">
+            Create a responsive image slider with Flickity, including navigation dots and arrow controls.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <footer class="page-footer white">
+
+    <div class="footer-copyright deep-purple lighten-3">
+      <div class="container">
+        © 2024 || All Rights Reserved.
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -211,23 +331,21 @@
 
 
 
+  <script src="materialize/js/jquery.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="lightbox2-2.11.4/dist/js/lightbox.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
 
-
-    <script src="materialize/js/jquery.js"></script>
-    <script src="materialize/js/materialize.js"></script>
-    <script src="lightbox2-2.11.4/dist/js/lightbox.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
-    <script>
-        $(document).ready(function () {
-          $('.sidenav').sidenav();
-        });
-      </script>
-
-    <script>
-        AOS.init();
-      </script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
+
 </html>
